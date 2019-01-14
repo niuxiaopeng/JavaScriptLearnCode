@@ -1,0 +1,2 @@
+# JavaScriptLearnCode
+用于学习JavaScript的基础代码
