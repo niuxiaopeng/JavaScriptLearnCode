@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Hello World!
+        </title>
+    </head>
+    <body>
+        <noscript>javascriptが利用できないブラウザです</noscript>
+        <!--这个文件的顺序很重要不能随意摆放,要遵循先定义后调用的基本原则,才可以正常运行-->
+        <script type="text/javascript" src="TestScore.js"></script>
+        <script type="text/javascript" src="calcWithTestScore.js"></script>
+        <script>
+            //函数一般情况下，是要先定义然后再调用。只有是有名函数的情况下，可以先调用，后定义，并且是需要是在同一个文件下。
+            function foo () {
+                console.log('hihii');
+            }
+            foo();
+        </script>
+    </body>
+</html>
