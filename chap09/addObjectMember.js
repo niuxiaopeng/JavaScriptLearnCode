@@ -1,3 +1,4 @@
+//这个是为了验证继承的类是否可以使用父类的方法,可以找到这个类,看里面的代码就明白了.
 let xiaoming=new TestScoreWithConstructor("武松",92,89,56);
 xiaoming.printScore();
 
