@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>タグ属性によるイベントハンドラ登録サンプル</title>
+    </head>
+    <body>
+        <p>
+            <label>
+                <input type="checkbox" id="checkall" name="checkall" value="1" onclick="onCheckallChanged()">すべてをチェック
+            </label>
+            <hr>
+            <label>
+                <input type="checkbox" name="skill" value="1">HTML<br>
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="2">JavaScript<br>
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="3">PHP<br>
+            </label>
+            <label>
+                <input type="checkbox" name="skill" value="4">SQL<br>
+            </label>
+        </p>
+        <script type="text/javascript" src="attributeAddEvent.js"></script>
+    </body>
+</html>
